@@ -1,0 +1,20 @@
+{
+  "name": "twr-sample",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace www run tsc --build",
+    "next-build": "yarn workspace www run next build"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^13.0.0",
+    "typescript": "^3.9.5",
+    "yarn": "^1.22.4"
+  }
+}
