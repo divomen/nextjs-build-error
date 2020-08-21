@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn workspace www run tsc --build",
-    "next-build": "yarn workspace www run next build"
+    "next-build": "yarn workspace www run next build",
+    "clean": "yarn workspaces run clean"
   },
   "private": true,
   "workspaces": [

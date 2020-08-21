@@ -1,16 +1,9 @@
-/* This is a single line comment to check if that works */
 {
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@c/*": ["packages/www/components/*"],
       "@lib/a/*": ["packages/a/*"],
-      "@lib/b/*": ["packages/b/*"],
-      "d-ts-alias": [
-        "packages/www/components/alias-to-d-ts.d.ts",
-        "packages/www/components/alias-to-d-ts.tsx"
-      ],
-      "@mycomponent": ["packages/www/components/hello.tsx"]
+      "@lib/b/*": ["packages/b/*"]
     },
     "esModuleInterop": true,
     "module": "esnext",
@@ -20,6 +13,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "checkJs": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "moduleResolution": "node",
