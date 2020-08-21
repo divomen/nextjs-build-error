@@ -1,4 +1,4 @@
-import { Hello } from '@mycomponent'
+import { Hello } from '../components/hello'
 
 export default function SingleAlias() {
   return (
