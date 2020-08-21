@@ -1,8 +1,9 @@
 {
-  "name": "a",
+  "name": "@lib/a",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf ./build"
   },
   "dependencies": {
   },
